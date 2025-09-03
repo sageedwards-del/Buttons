@@ -4,10 +4,8 @@ import "./App.css";
 function App() {
   // TODO: Create a state to track which button is active
 
-  // TODO: Define the correct color for the working button
   const correctColor = "#A7F3D0";
 
-  // TODO: Define colors for error buttons
   const errorColors = [
     "#FFD6A5", // Button 2
     "#FF0000", // Button 3
@@ -19,7 +17,6 @@ function App() {
     "#FFFFFF", // Button 9
   ];
 
-  // TODO: Generate button numbers
   const buttons = Array.from({ length: 9 }, (_, i) => i + 1);
 
   // TODO: Set the page background color based on active button
@@ -28,9 +25,7 @@ function App() {
   return (
     // TODO: Apply page background color using style={{ backgroundColor: pageColor }}
     <div className="App">
-      {/* TODO: Center the buttons both vertically and horizontally */}
       <div>
-        {/* TODO: Make a 3x3 grid of buttons */}
         {buttons.map((num) => {
           if (num === 1) {
             return (
@@ -38,7 +33,6 @@ function App() {
                 key={num}
                 // TODO: Add onClick to set active button
                 style={{
-                  // TODO: Make the button square with width and aspectRatio
                   backgroundColor: correctColor,
                 }}
               >
@@ -90,7 +84,7 @@ function App() {
                 key={num}
                 // TODO: Fix
                 style={{
-                  backgrounColor: "black",
+                  backgroundColor: "black",
                   width: "80px",
                 }}
               >
