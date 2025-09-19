@@ -33,23 +33,22 @@ For this gearup, you'll only need to use `npm install`, `npm run start`, and `np
 
 ## TODOs
 
-### src/App.tsx
+### Raw Html - raw-html/playground.html
 
-- [ ] Create a `useState` hook to track which button is active.
-- [ ] Compute `pageColor` based on the active button.
-- [ ] Apply `pageColor` as the background of `<div className="App">`.
-- [ ] Refactor the button rendering logic:
-  - [ ] Add `onClick` for each button to set it as active.
-  - [ ] Ensure all buttons have consistent square dimensions (use `width` + `aspectRatio`).
+1. Create a div, put a button in it, and give the button a color
 
-### src/App.css
+### React Webapp
 
-- [ ] Center the button container both vertically and horizontally.
-- [ ] Make the container a 3x3 grid.
-- [ ] Style buttons to be square with consistent sizing.
+#### src/App.tsx
 
-### src/filename.html
+2. Create a `useState` hook to track which button is active
+3. Compute `pageColor` based on the active button
+4. Apply `pageColor` as the background of `<div className="App">`
+5. Add `onClick` for each button to set it as active
+6. Ensure all buttons have consistent square dimensions (use `width` + `aspectRatio`)
 
-- [ ] Add a `<div>` container to the `<body>`.
-- [ ] Inside the `<div>`, add a `<button>` element.
-- [ ] (Optional) Style the `<div>` and `<button>` with basic CSS for layout and visibility.
+#### src/App.css
+
+7. Center the button container both vertically and horizontally.
+8. Make the container a 3x3 grid.
+9. Style buttons to be square with consistent sizing.
