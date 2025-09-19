@@ -20,15 +20,16 @@ Created with create-react-app. See the [full create-react-app guide](https://git
 
 ## Scripts
 
-| Command         | Description                            |
-| --------------- | -------------------------------------- |
-| `npm install`   | Install dependencies                   |
-| `npm run start` | Start the webapp                       |
-| `npm run test`  | Creates optimized files for production |
-| `npm run build` | Run tests                              |
-| `npm run eject` | Exposes configuration files.           |
+| Command              | Description                            |
+| -------------------- | -------------------------------------- |
+| `npm install`        | Install dependencies                   |
+| `npm run start`      | Start the webapp                       |
+| `npm run test`       | Run react unit tests                   |
+| `npm run playwright` | Run playwright tests                   |
+| `npm run build`      | Creates optimized files for production |
+| `npm run eject`      | Exposes configuration files.           |
 
-For this gearup, you'll only need to use `npm install` and `npm run start`
+For this gearup, you'll only need to use `npm install`, `npm run start`, and `npm run playwright`
 
 ## TODOs
 
