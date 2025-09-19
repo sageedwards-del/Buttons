@@ -1,26 +1,34 @@
 # Mock
 
-Sample code for the mock gearup
+Sample code for the mock gearup  
+Created with create-react-app. See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Installation
+## How To
 
-npm install
-TODO
+### raw-html webpage
 
-## Running the Server
+- navigate to raw-html/playground.html
+- right click on playground.html in the file explorer
+- select "Open with Live Server"
 
-Build with npm run build, then run wtih npm run start.
-TODO
+### react app
+
+- run `npm install` to install dependencies
+- run `npm start` to start the application locally
+
+### tests
 
 ## Scripts
 
-| Command              | Description                                 |
-| -------------------- | ------------------------------------------- |
-| `npm run clean`      | Cleanup.                                    |
-| `npm run build`      | Build ts code into js.                      |
-| `npm run start`      | Start server.                               |
-| `npm run test`       | Run all unit tests using vitest.            |
-| `npm run playwright` | Run all integration tests using playwright. |
+| Command         | Description                            |
+| --------------- | -------------------------------------- |
+| `npm install`   | Install dependencies                   |
+| `npm run start` | Start the webapp                       |
+| `npm run test`  | Creates optimized files for production |
+| `npm run build` | Run tests                              |
+| `npm run eject` | Exposes configuration files.           |
+
+For this gearup, you'll only need to use `npm install` and `npm run start`
 
 ## TODOs
 
