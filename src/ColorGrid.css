@@ -1,0 +1,30 @@
+
+.color-grid {
+  text-align: center;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  /* Styles in here will apply to all <button>s */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.button-container {
+  /* Styles in here will apply to the <div> with className=button-container */
+  align-self: center;
+  /* TODO #5: Center the buttons both vertically and horizontally */
+  /* TODO #7: Make a 3x3 grid of buttons */
+
+}
+
+button.grid-button {
+  /* Styles in here will to the <button> with className=grid-button */
+  /* TODO #6: Make the buttons square with width and aspectRatio */
+}
+

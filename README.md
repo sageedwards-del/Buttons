@@ -18,6 +18,9 @@ Created with create-react-app. See the [full create-react-app guide](https://git
 
 ### tests
 
+- run `npx playwright install` to update playwright
+- run `npm run playwright` to run tests
+
 ## Scripts
 
 | Command              | Description                            |
@@ -42,13 +45,15 @@ For this gearup, you'll only need to use `npm install`, `npm run start`, and `np
 #### src/App.tsx
 
 2. Create a `useState` hook to track which button is active
-3. Compute `pageColor` based on the active button
+3. Add `onClick` for each button to set it as active
 4. Apply `pageColor` as the background of `<div className="App">`
-5. Add `onClick` for each button to set it as active
-6. Ensure all buttons have consistent square dimensions (use `width` + `aspectRatio`)
 
 #### src/App.css
 
 7. Center the button container both vertically and horizontally.
-8. Make the container a 3x3 grid.
-9. Style buttons to be square with consistent sizing.
+8. Style buttons to be square with consistent sizing.
+9. Make the container a 3x3 grid.
+
+### Playwright - tests/color-grid.test.ts
+
+10. Write the test for button 6
