@@ -50,10 +50,10 @@ For this gearup, you'll only need to use `npm install`, `npm run start`, and `np
 
 #### src/App.css
 
-7. Center the button container both vertically and horizontally.
-8. Style buttons to be square with consistent sizing.
-9. Make the container a 3x3 grid.
+5. Center the button container both vertically and horizontally.
+6. Style buttons to be square with consistent sizing.
+7. Make the container a 3x3 grid.
 
 ### Playwright - tests/color-grid.test.ts
 
-10. Write the test for button 6
+8. Write the test for button 6

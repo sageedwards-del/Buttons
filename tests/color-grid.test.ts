@@ -61,7 +61,7 @@ test('Button 5 changes background color', async ({ page }) => {
   expect(appBg).toBe(expectedColor);
 });
 
-// TODO #10: Button 6 needs to be tested!
+// TODO #8: Button 6 needs to be tested!
 
 test('Button 7 changes background color', async ({ page }) => {
   await page.goto('http://localhost:3000');
