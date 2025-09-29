@@ -24,11 +24,10 @@ function ColorGrid() {
   // TODO #2: Create a useState hook to track which button was last clicked. Slide 31 might help with this!
   // You can store the color for that button, or the button number (1-9)
   // const...
-    const [pageColor, setPageColor] = useState<string>("white"); // Default page color is white
 
   return (
     // TODO #4 : Apply page background color using style={{ backgroundColor: pageColor }}
-    <div className="color-grid" style={{ backgroundColor: pageColor }}>
+    <div className="color-grid">
 
       <div className="description-container">
         <h1>Welcome to your first React App!</h1>
@@ -43,7 +42,6 @@ function ColorGrid() {
             id={"button-" + num}
             style={{ backgroundColor: colors[num - 1] }}
             // TODO #3 : Add an onClick handler that updates the last clicked button state
-            onClick={() => setPageColor(colors[num - 1])}
           >
             {num}
           </button>
