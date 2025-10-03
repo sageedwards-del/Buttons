@@ -17,7 +17,6 @@ button {
 
 .button-container {
   /* Styles in here will apply to the <div> with className=button-container */
-  align-self: center;
   /* TODO #5: Center the buttons both vertically and horizontally */
   /* TODO #7: Make a 3x3 grid of buttons */
 

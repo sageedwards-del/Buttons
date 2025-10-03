@@ -52,8 +52,12 @@ For this gearup, you'll only need to use `npm install`, `npm run start`, and `np
 
 5. Center the button container both vertically and horizontally.
 6. Style buttons to be square with consistent sizing.
-7. Make the container a 3x3 grid.
+7. Make the buttons form a 3x3 grid.
 
-### Playwright - tests/color-grid.test.ts
+## Testing
 
-8. Write the test for button 6
+This repository contains extensive tests for TODOs 2-9. Once you've completed the TODOs, the tests should all be passing!
+
+Tests were generated with the assistance of Microsoft Copilot, then reviewed and modified.
+
+> “Microsoft CoPilot Claude Sonnet 4. Accessed 2025-10-03. Prompt: write tests for todos 1-9.’ Generated using Copilot VSCode extension”

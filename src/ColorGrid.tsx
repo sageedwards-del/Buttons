@@ -8,7 +8,7 @@ function ColorGrid() {
   const buttons = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   // The colors for the buttons
-  // Feel free to change these colors! You can use color names, hex codes, rgb(), hsl(), etc.
+  // These could also use hex codes, rgb(), hsl(), etc.
   const colors = [
     "lightblue",    // Button 1
     "lightcoral",   // Button 2
