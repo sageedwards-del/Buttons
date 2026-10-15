@@ -1,0 +1,38 @@
+
+---------------------------------------------------------------------------------------------------------------
+WHEN I RUN NPM MYCOMMAND
+
+    - npm looks for and opens package.json
+    - npm finds "scripts"
+    - npm looks up "my command"
+    - npm runs it!
+
+
+---------------------------------------------------------------------------------------------------------------
+Outline of this project:
+
+- json is a document with a KV structure; embedded trees!
+- json is very simple. Made up of objects, arrays, strings, and numbers, nothing else. 
+- README.md is a markdown file. like .txt.
+{
+    "key" : "value",
+    "key2" : "value2",
+
+}
+
+IN THIS DIR: 
+FILES
+- tsconfig.json is in this dir, so indicates it is central. Configures TS and compiler from TS->JS. 
+- package.json :  contains package dependencies and scripts! ALSO DEFINES NPM RUN COMMANDS AVAILABLE!
+    NODE PACKAGE MANAGER TERMINAL COMMANDS DEFINED UNDER "SCRIPTS" KEY. 
+    - defines npm start, npm run build, npm test, npm run eject, npm run playwright
+    -  'scripts' because they are run as terminal scripts.
+- package-lock.json :
+-  playwright.cofig.ts : I assume it configures playwright tests. 
+
+FOLDERS
+- public
+- raw-html
+- src 
+- tests 
+---------------------------------------------------------------------------------------------------------------
